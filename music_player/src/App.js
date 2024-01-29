@@ -1,11 +1,14 @@
-
+import Player from "./components/Player"
+import Songs from "./components/Songs"
 
 function App() {
   return (
     <div className="App">
-      <h1>Music Player</h1>
+      <Songs />
+      <Player />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
+App.displayName = "App"
